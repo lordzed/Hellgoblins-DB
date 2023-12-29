@@ -14,10 +14,12 @@ SET @EGUID := 9004070; -- Creature Addon
 DELETE FROM `creature` WHERE `guid` BETWEEN @ZGUID+0 AND @ZGUID+274;
 INSERT INTO `creature` (`guid`, `id`, `map`, `zoneId`, `areaId`, `spawnDifficulties`, `PhaseId`, `PhaseGroup`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `wander_distance`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `unit_flags2`, `unit_flags3`, `VerifiedBuild`) VALUES
 
--- Arielle Snapflash
+-- Arielle Snapflash & Shutterbug
 
 (@ZGUID+156, 16908, 0, 1519, 5150, 0, 0, 0, 0, 0, -8258.591796875, 657.30902099609375, 93.00539398193359375, 5.141171932220458984, 120, 0, 0, 112919, 0, 0, NULL, NULL, NULL, NULL, 52649), -- Arielle Snapflash (Area: Dwarven District - Difficulty: 0) CreateObject1 (Auras: 258389 - Photographer State)
 
+(@ZGUID+158, 19269, 0, 1519, 5150, 0, 0, 0, 0, 0, -8257.6357421875, 656.04833984375, 92.799407958984375, 4.923062324523925781, 120, 10, 0, 112919, 0, 1, NULL, NULL, NULL, NULL, 52649), -- Shutterbug (Area: Dwarven District - Difficulty: 0) CreateObject1 (possible waypoints or random movement)
+ 
 -- Chromie Spawn
 
 (@ZGUID+168, 167032, 0, 1519, 0, 0, 0, 0, 0, 0, -8196.3095703125, 745.33856201171875, 78.415435791015625, 1.435181260108947753, 120, 0, 0, 9671500, 0, 0, NULL, NULL, NULL, NULL, 52649), -- Chromie (Area: 0 - Difficulty: 0) CreateObject1
