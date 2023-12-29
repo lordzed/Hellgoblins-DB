@@ -11,8 +11,6 @@ SET @ANPCTEXTID := 16777216; -- Fix Chromie text
 SET @EGUID := 9004070; -- Creature Addon
 
 
-SET @ZGUID := 9004142; -- Creature Spawns
-
 DELETE FROM `creature` WHERE `guid` BETWEEN @ZGUID+0 AND @ZGUID+274;
 INSERT INTO `creature` (`guid`, `id`, `map`, `zoneId`, `areaId`, `spawnDifficulties`, `PhaseId`, `PhaseGroup`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `wander_distance`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `unit_flags2`, `unit_flags3`, `VerifiedBuild`) VALUES
 
