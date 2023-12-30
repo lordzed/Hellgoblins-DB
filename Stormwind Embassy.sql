@@ -153,7 +153,18 @@ INSERT INTO `creature` (`guid`, `id`, `map`, `zoneId`, `areaId`, `spawnDifficult
 
 DELETE FROM `gameobject` WHERE `guid` BETWEEN @FGUID+0 AND @FGUID+515;
 INSERT INTO `gameobject` (`guid`, `id`, `map`, `zoneId`, `areaId`, `spawnDifficulties`, `PhaseId`, `PhaseGroup`, `position_x`, `position_y`, `position_z`, `orientation`, `rotation0`, `rotation1`, `rotation2`, `rotation3`, `spawntimesecs`, `animprogress`, `state`, `VerifiedBuild`) VALUES
+
+-- Heavy Logs 
+
+(@FGUID+449, 281304, 0, 1519, 5150, 0, 0, 0, -8264.3193359375, 730.4461669921875, 78.6899261474609375, 5.337895393371582031, 0.782235622406005859, -0.3968353271484375, -0.22313117980957031, 0.425254762172698974, 120, 255, 1, 52649), -- Heavy Logs (Area: Dwarven District - Difficulty: 0) CreateObject1
+(@FGUID+447, 281304, 0, 1519, 5150, 0, 0, 0, -8273.4912109375, 732.451416015625, 78.08438873291015625, 0.599288463592529296, 0, 0, 0.295180320739746093, 0.955441534519195556, 120, 255, 1, 52649), -- Heavy Logs (Area: Dwarven District - Difficulty: 0) CreateObject1
+(@FGUID+448, 281304, 0, 1519, 5150, 0, 0, 0, -8268.5400390625, 726.38714599609375, 78.07082366943359375, 2.438763141632080078, 0, 0, 0.938886642456054687, 0.34422650933265686, 120, 255, 1, 52649), -- Heavy Logs (Area: Dwarven District - Difficulty: 0) CreateObject1
+
+-- Chromie's Hourglass
 (@FGUID+453, 350063, 0, 1519, 0, 0, 0, 0, -8196.39453125, 744.904541015625, 76.43845367431640625, 0.205067232251167297, 0, 0, 0.102354049682617187, 0.994748055934906005, 120, 255, 1, 52649), -- Chromie's Hourglass (Area: 0 - Difficulty: 0) CreateObject1
+
+--
+  
 (@FGUID+454, 218719, 0, 1519, 0, 0, 0, 0, -8203.171875, 651.4913330078125, 67.15387725830078125, 0, 0, 0, 0, 1, 120, 255, 1, 52649), -- Raft (Area: 0 - Difficulty: 0) CreateObject1
 (@FGUID+455, 204281, 0, 1519, 0, 0, 0, 0, -8187.111328125, 754.59893798828125, 73.65544891357421875, 4.258606910705566406, 0, 0, -0.84804725646972656, 0.529920578002929687, 120, 255, 1, 52649), -- Worm Mound (Area: 0 - Difficulty: 0) CreateObject1
 (@FGUID+456, 204281, 0, 1519, 0, 0, 0, 0, -8222.361328125, 789.28125, 76.64725494384765625, 0, 0, 0, 0, 1, 120, 255, 1, 52649), -- Worm Mound (Area: 0 - Difficulty: 0) CreateObject1
