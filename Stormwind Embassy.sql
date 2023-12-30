@@ -14,15 +14,39 @@ SET @EGUID := 9004070; -- Creature Addon
 DELETE FROM `creature` WHERE `guid` BETWEEN @ZGUID+0 AND @ZGUID+274;
 INSERT INTO `creature` (`guid`, `id`, `map`, `zoneId`, `areaId`, `spawnDifficulties`, `PhaseId`, `PhaseGroup`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `wander_distance`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `unit_flags2`, `unit_flags3`, `VerifiedBuild`) VALUES
 
--- Arielle Snapflash & Shutterbug
+
+(@ZGUID+154, 68, 0, 1519, 5150, 0, 0, 0, 0, 1, -8288.318359375, 684.25152587890625, 86.8664093017578125, 3.864670276641845703, 120, 10, 0, 169379, 0, 1, NULL, NULL, NULL, NULL, 52649), -- Stormwind City Guard (Area: Dwarven District - Difficulty: 0) CreateObject1 (Auras: ) (possible waypoints or random movement)
+
+-- Arielle Snapflash -- Shutterbug
 
 (@ZGUID+156, 16908, 0, 1519, 5150, 0, 0, 0, 0, 0, -8258.591796875, 657.30902099609375, 93.00539398193359375, 5.141171932220458984, 120, 0, 0, 112919, 0, 0, NULL, NULL, NULL, NULL, 52649), -- Arielle Snapflash (Area: Dwarven District - Difficulty: 0) CreateObject1 (Auras: 258389 - Photographer State)
-
 (@ZGUID+158, 19269, 0, 1519, 5150, 0, 0, 0, 0, 0, -8257.6357421875, 656.04833984375, 92.799407958984375, 4.923062324523925781, 120, 10, 0, 112919, 0, 1, NULL, NULL, NULL, NULL, 52649), -- Shutterbug (Area: Dwarven District - Difficulty: 0) CreateObject1 (possible waypoints or random movement)
- 
+
+
+-- Celestine of the Harvest - Druid Trainer
+
+(@ZGUID+160, 44395, 0, 1519, 5150, 0, 0, 0, 0, 1, -8284.138671875, 724.4132080078125, 79.99713897705078125, 0.562285959720611572, 120, 0, 0, 112919, 3155, 0, NULL, NULL, NULL, NULL, 52649), -- Celestine of the Harvest (Area: Dwarven District - Difficulty: 0) CreateObject1
+
+-- Peasant Worker
+
+(@ZGUID+161, 133675, 0, 1519, 5150, 0, 0, 0, 0, 1, -8263.7294921875, 731.09552001953125, 78.45843505859375, 3.823138713836669921, 120, 0, 0, 112919, 0, 0, NULL, NULL, NULL, NULL, 52649), -- Peasant Worker (Area: Dwarven District - Difficulty: 0) CreateObject1
+(@ZGUID+162, 133675, 0, 1519, 5150, 0, 0, 0, 0, 0, -8273.1923828125, 735.61285400390625, 78.48775482177734375, 5.304184913635253906, 120, 0, 0, 112919, 0, 0, NULL, NULL, NULL, NULL, 52649), -- Peasant Worker (Area: Dwarven District - Difficulty: 0) CreateObject1
+(@ZGUID+163, 133675, 0, 1519, 5150, 0, 0, 0, 0, 1, -8239.50390625, 712.86285400390625, 77.01202392578125, 3.41656351089477539, 120, 0, 0, 112919, 0, 0, NULL, NULL, NULL, NULL, 52649), -- Peasant Worker (Area: Dwarven District - Difficulty: 0) CreateObject1
+
+(@ZGUID+165, 68, 0, 1519, 0, 0, 0, 0, 0, 1, -8232.40625, 748.013916015625, 74.309295654296875, 4.028546810150146484, 120, 0, 0, 169379, 0, 0, NULL, NULL, NULL, NULL, 52649), -- Stormwind City Guard (Area: 0 - Difficulty: 0) CreateObject1 (Auras: )
+(@ZGUID+166, 68, 0, 1519, 0, 0, 0, 0, 0, 1, -8257.6220703125, 761.40972900390625, 79.53528594970703125, 0.789030730724334716, 120, 0, 0, 169379, 0, 0, NULL, NULL, NULL, NULL, 52649), -- Stormwind City Guard (Area: 0 - Difficulty: 0) CreateObject1 (Auras: )
+
 -- Chromie Spawn
 
 (@ZGUID+168, 167032, 0, 1519, 0, 0, 0, 0, 0, 0, -8196.3095703125, 745.33856201171875, 78.415435791015625, 1.435181260108947753, 120, 0, 0, 9671500, 0, 0, NULL, NULL, NULL, NULL, 52649), -- Chromie (Area: 0 - Difficulty: 0) CreateObject1
+
+(@ZGUID+169, 68, 0, 1519, 0, 0, 0, 0, 0, 1, -8223.3056640625, 737.59552001953125, 74.54803466796875, 3.687657356262207031, 120, 0, 0, 169379, 0, 0, NULL, NULL, NULL, NULL, 52649), -- Stormwind City Guard (Area: 0 - Difficulty: 0) CreateObject1 (Auras: )
+(@ZGUID+170, 133441, 0, 1519, 0, 0, 0, 0, 0, 1, -8184.78466796875, 746.3819580078125, 74.048614501953125, 1.327138423919677734, 120, 0, 0, 112919, 0, 0, NULL, NULL, NULL, NULL, 52649), -- Trained Brightlance (Area: 0 - Difficulty: 0) CreateObject1
+
+(@ZGUID+174, 68, 0, 1519, 0, 0, 0, 0, 0, 1, -8195.38671875, 774.54986572265625, 72.43186187744140625, 5.261899948120117187, 120, 10, 0, 169379, 0, 1, NULL, NULL, NULL, NULL, 52649), -- Stormwind City Guard (Area: 0 - Difficulty: 0) CreateObject1 (Auras: ) (possible waypoints or random movement)
+(@ZGUID+175, 130069, 0, 1519, 0, 0, 0, 0, 0, 0, -8187.76318359375, 773.94476318359375, 72.39153289794921875, 5.547761440277099609, 120, 10, 0, 112919, 0, 1, NULL, NULL, NULL, NULL, 52649), -- Aspiring Anchorite (Area: 0 - Difficulty: 0) CreateObject1 (possible waypoints or random movement)
+(@ZGUID+176, 133431, 0, 1519, 0, 0, 0, 0, 0, 1, -8183.705078125, 749.8125, 73.8368072509765625, 4.304282188415527343, 120, 0, 0, 112919, 0, 0, NULL, NULL, NULL, NULL, 52649), -- Lightforged Sunshield (Area: 0 - Difficulty: 0) CreateObject1
+(@ZGUID+177, 133431, 0, 1519, 0, 0, 0, 0, 0, 1, -8189.7646484375, 771.689208984375, 72.28853607177734375, 5.561594009399414062, 120, 10, 0, 112919, 0, 1, NULL, NULL, NULL, NULL, 52649), -- Lightforged Sunshield (Area: 0 - Difficulty: 0) CreateObject1 (possible waypoints or random movement)
 
 -- Area: Olivia's Pond
 
