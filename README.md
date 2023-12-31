@@ -1,14 +1,16 @@
 
 Use the proper @--Guid when creating a database for a zone (Creature Gameobject Gossip menu etc.)
 
-SET @ZGUID := xxxxxxx; -- Creature Spawns
+The new guid sistem will be formated this way MapID,ZoneID,Entry = ZZZZXXXXYYYY
 
-SET @EGUID := xxxxxxx; -- Creature Addon
+SET @ZGUID := ZZZZXXXXYYYY; -- Creature Spawns
 
-SET @FGUID := xxxxxxx; -- GameObject Spawn
+SET @EGUID := ZZZZXXXXYYYY; -- Creature Addon
 
-SET @RGUID := xxxxxxx; -- GameObject Addon 
+SET @FGUID := ZZZZXXXXYYYY; -- GameObject Spawn
 
-SET @NPCTEXTID := xxxxxxx; -- Fix Gossip Menu
+SET @RGUID := ZZZZXXXXYYYY; -- GameObject Addon 
 
-SET @ANPCTEXTID := xxxxxxx; -- Fix Chromie text
+SET @NPCTEXTID := ZZZZXXXXYYYY; -- Fix Gossip Menu
+
+SET @ANPCTEXTID := ZZZZXXXXYYYY; -- Fix Chromie text
