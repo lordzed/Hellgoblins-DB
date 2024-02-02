@@ -1,3 +1,4 @@
+
 UPDATE creature_template_difficulty SET LevelScalingDeltaMin = 1, LevelScalingDeltaMax = 70 WHERE entry = 6491;
 UPDATE creature_template_difficulty SET LevelScalingDeltaMin = 1, LevelScalingDeltaMax = 1 WHERE entry = 49496;
 UPDATE creature_template_difficulty SET LevelScalingDeltaMin = 1, LevelScalingDeltaMax = 1 WHERE entry = 49778;
